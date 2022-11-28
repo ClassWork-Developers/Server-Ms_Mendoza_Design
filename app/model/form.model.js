@@ -7,12 +7,11 @@ module.exports = (sequelize, Sequelize) => {
 		type: Sequelize.STRING
 	  },
 	  phoneNumber: {
-		  type: Sequelize.INTEGER
+		  type: Sequelize.STRING
 	  },
 	  affairs: {
 		type: Sequelize.STRING
 	  },
 	});
-	
 	return Form;
 }

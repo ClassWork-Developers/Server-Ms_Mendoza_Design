@@ -17,7 +17,7 @@ db.sequelize.sync({force: true}).then(() => {
   console.log('Drop and Resync with { force: true }');
 });
 
-require('./app/route/customer.route.js')(app);
+require('./app/route/form.route.js')(app);
 
 // Create a Server
 var server = app.listen(8081, function () {

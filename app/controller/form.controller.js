@@ -23,7 +23,7 @@ exports.findAll = (req, res) => {
 };
 
 // exports.findById = (req, res) => {	
-// 	Form.findById(req.params.customerId).then(form => {
+// 	Form.findById(req.params.formId).then(form => {
 // 		res.send(form);
 // 	}).catch(err => {
 // 		res.status(500).send("Error -> " + err);
