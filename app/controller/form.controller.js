@@ -21,11 +21,3 @@ exports.findAll = (req, res) => {
 		res.status(500).send("Error -> " + err);
 	})
 };
-
-// exports.findById = (req, res) => {	
-// 	Form.findById(req.params.formId).then(form => {
-// 		res.send(form);
-// 	}).catch(err => {
-// 		res.status(500).send("Error -> " + err);
-// 	})
-// };
